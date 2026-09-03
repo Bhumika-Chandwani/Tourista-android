@@ -1,9 +1,30 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.TouristGuide" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.TouristGuide" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Brand -->
+        <item name="colorPrimary">@color/terracotta</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+
+        <item name="colorSecondary">@color/olive</item>
+        <item name="colorOnSecondary">@color/text_on_primary</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="colorSurface">@color/surface</item>
+
+        <!-- Typography -->
+        <item name="android:fontFamily">sans</item>
+        <item name="android:textColor">@color/text_primary</item>
+
+        <!-- System bars -->
+        <item name="android:statusBarColor">@color/cream</item>
+        <item name="android:navigationBarColor">@color/cream</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
     </style>
 
-    <style name="Theme.TouristGuide" parent="Base.Theme.TouristGuide" />
 </resources>

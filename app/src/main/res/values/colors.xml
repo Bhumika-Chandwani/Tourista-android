@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand -->
+    <color name="terracotta">#C65D3A</color>
+    <color name="terracotta_dark">#9E432A</color>
+
+    <!-- Secondary -->
+    <color name="olive">#718355</color>
+    <color name="sage">#A3B18A</color>
+
+    <!-- Backgrounds -->
+    <color name="cream">#FAF7F0</color>
+    <color name="surface">#FFFDF9</color>
+    <color name="sand">#E9DCC9</color>
+
+    <!-- Text -->
+    <color name="text_primary">#29231F</color>
+    <color name="text_secondary">#756E67</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Utility -->
+    <color name="success">#5F7A55</color>
+    <color name="error">#B54A3A</color>
+
 </resources>
