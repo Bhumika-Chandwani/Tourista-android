@@ -26,5 +26,24 @@
         <item name="android:windowLightNavigationBar">true</item>
 
     </style>
+    <style name="Widget.Tourista.TextInputLayout"
+        parent="Widget.Material3.TextInputLayout.OutlinedBox">
 
+        <item name="boxStrokeColor">@color/terracotta</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+
+    </style>
+
+    <style name="Widget.Tourista.Button.Primary"
+        parent="Widget.Material3.Button">
+
+        <item name="backgroundTint">@color/terracotta</item>
+        <item name="android:textColor">@color/text_on_primary</item>
+        <item name="cornerRadius">16dp</item>
+
+    </style>
 </resources>
